@@ -1,8 +1,5 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import threading
-from time import sleep
-from PIL import Image
-
 
 # Global variable to store the current command
 current_command = 'Write-Output "Hello from server"'
